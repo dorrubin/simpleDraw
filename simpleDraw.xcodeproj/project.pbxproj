@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270E42521DB2D5330049928F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270E42511DB2D5330049928F /* AppDelegate.swift */; };
+		270E42541DB2D5330049928F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270E42531DB2D5330049928F /* ViewController.swift */; };
+		270E42571DB2D5330049928F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270E42551DB2D5330049928F /* Main.storyboard */; };
+		270E42591DB2D5330049928F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270E42581DB2D5330049928F /* Assets.xcassets */; };
+		270E425C1DB2D5330049928F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270E425A1DB2D5330049928F /* LaunchScreen.storyboard */; };
+		270E42671DB2D5330049928F /* simpleDrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270E42661DB2D5330049928F /* simpleDrawTests.swift */; };
+		270E42721DB2D5330049928F /* simpleDrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270E42711DB2D5330049928F /* simpleDrawUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		270E42631DB2D5330049928F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 270E42461DB2D5330049928F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 270E424D1DB2D5330049928F;
+			remoteInfo = simpleDraw;
+		};
+		270E426E1DB2D5330049928F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 270E42461DB2D5330049928F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 270E424D1DB2D5330049928F;
+			remoteInfo = simpleDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		270E424E1DB2D5330049928F /* simpleDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		270E42511DB2D5330049928F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		270E42531DB2D5330049928F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		270E42561DB2D5330049928F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		270E42581DB2D5330049928F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		270E425B1DB2D5330049928F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		270E425D1DB2D5330049928F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270E42621DB2D5330049928F /* simpleDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		270E42661DB2D5330049928F /* simpleDrawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleDrawTests.swift; sourceTree = "<group>"; };
+		270E42681DB2D5330049928F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270E426D1DB2D5330049928F /* simpleDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		270E42711DB2D5330049928F /* simpleDrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleDrawUITests.swift; sourceTree = "<group>"; };
+		270E42731DB2D5330049928F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		270E424B1DB2D5330049928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270E425F1DB2D5330049928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270E426A1DB2D5330049928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270E42451DB2D5330049928F = {
+			isa = PBXGroup;
+			children = (
+				270E42501DB2D5330049928F /* simpleDraw */,
+				270E42651DB2D5330049928F /* simpleDrawTests */,
+				270E42701DB2D5330049928F /* simpleDrawUITests */,
+				270E424F1DB2D5330049928F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		270E424F1DB2D5330049928F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				270E424E1DB2D5330049928F /* simpleDraw.app */,
+				270E42621DB2D5330049928F /* simpleDrawTests.xctest */,
+				270E426D1DB2D5330049928F /* simpleDrawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		270E42501DB2D5330049928F /* simpleDraw */ = {
+			isa = PBXGroup;
+			children = (
+				270E42511DB2D5330049928F /* AppDelegate.swift */,
+				270E42531DB2D5330049928F /* ViewController.swift */,
+				270E42551DB2D5330049928F /* Main.storyboard */,
+				270E42581DB2D5330049928F /* Assets.xcassets */,
+				270E425A1DB2D5330049928F /* LaunchScreen.storyboard */,
+				270E425D1DB2D5330049928F /* Info.plist */,
+			);
+			path = simpleDraw;
+			sourceTree = "<group>";
+		};
+		270E42651DB2D5330049928F /* simpleDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				270E42661DB2D5330049928F /* simpleDrawTests.swift */,
+				270E42681DB2D5330049928F /* Info.plist */,
+			);
+			path = simpleDrawTests;
+			sourceTree = "<group>";
+		};
+		270E42701DB2D5330049928F /* simpleDrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				270E42711DB2D5330049928F /* simpleDrawUITests.swift */,
+				270E42731DB2D5330049928F /* Info.plist */,
+			);
+			path = simpleDrawUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		270E424D1DB2D5330049928F /* simpleDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270E42761DB2D5330049928F /* Build configuration list for PBXNativeTarget "simpleDraw" */;
+			buildPhases = (
+				270E424A1DB2D5330049928F /* Sources */,
+				270E424B1DB2D5330049928F /* Frameworks */,
+				270E424C1DB2D5330049928F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simpleDraw;
+			productName = simpleDraw;
+			productReference = 270E424E1DB2D5330049928F /* simpleDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		270E42611DB2D5330049928F /* simpleDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270E42791DB2D5330049928F /* Build configuration list for PBXNativeTarget "simpleDrawTests" */;
+			buildPhases = (
+				270E425E1DB2D5330049928F /* Sources */,
+				270E425F1DB2D5330049928F /* Frameworks */,
+				270E42601DB2D5330049928F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				270E42641DB2D5330049928F /* PBXTargetDependency */,
+			);
+			name = simpleDrawTests;
+			productName = simpleDrawTests;
+			productReference = 270E42621DB2D5330049928F /* simpleDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		270E426C1DB2D5330049928F /* simpleDrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270E427C1DB2D5330049928F /* Build configuration list for PBXNativeTarget "simpleDrawUITests" */;
+			buildPhases = (
+				270E42691DB2D5330049928F /* Sources */,
+				270E426A1DB2D5330049928F /* Frameworks */,
+				270E426B1DB2D5330049928F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				270E426F1DB2D5330049928F /* PBXTargetDependency */,
+			);
+			name = simpleDrawUITests;
+			productName = simpleDrawUITests;
+			productReference = 270E426D1DB2D5330049928F /* simpleDrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		270E42461DB2D5330049928F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dor Rubin";
+				TargetAttributes = {
+					270E424D1DB2D5330049928F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					270E42611DB2D5330049928F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 270E424D1DB2D5330049928F;
+					};
+					270E426C1DB2D5330049928F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 270E424D1DB2D5330049928F;
+					};
+				};
+			};
+			buildConfigurationList = 270E42491DB2D5330049928F /* Build configuration list for PBXProject "simpleDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 270E42451DB2D5330049928F;
+			productRefGroup = 270E424F1DB2D5330049928F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				270E424D1DB2D5330049928F /* simpleDraw */,
+				270E42611DB2D5330049928F /* simpleDrawTests */,
+				270E426C1DB2D5330049928F /* simpleDrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		270E424C1DB2D5330049928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270E425C1DB2D5330049928F /* LaunchScreen.storyboard in Resources */,
+				270E42591DB2D5330049928F /* Assets.xcassets in Resources */,
+				270E42571DB2D5330049928F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270E42601DB2D5330049928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270E426B1DB2D5330049928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		270E424A1DB2D5330049928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270E42541DB2D5330049928F /* ViewController.swift in Sources */,
+				270E42521DB2D5330049928F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270E425E1DB2D5330049928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270E42671DB2D5330049928F /* simpleDrawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270E42691DB2D5330049928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270E42721DB2D5330049928F /* simpleDrawUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		270E42641DB2D5330049928F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 270E424D1DB2D5330049928F /* simpleDraw */;
+			targetProxy = 270E42631DB2D5330049928F /* PBXContainerItemProxy */;
+		};
+		270E426F1DB2D5330049928F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 270E424D1DB2D5330049928F /* simpleDraw */;
+			targetProxy = 270E426E1DB2D5330049928F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		270E42551DB2D5330049928F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270E42561DB2D5330049928F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		270E425A1DB2D5330049928F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270E425B1DB2D5330049928F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		270E42741DB2D5330049928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		270E42751DB2D5330049928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		270E42771DB2D5330049928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = simpleDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.simpleDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		270E42781DB2D5330049928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = simpleDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.simpleDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		270E427A1DB2D5330049928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = simpleDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.simpleDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simpleDraw.app/simpleDraw";
+			};
+			name = Debug;
+		};
+		270E427B1DB2D5330049928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = simpleDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.simpleDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simpleDraw.app/simpleDraw";
+			};
+			name = Release;
+		};
+		270E427D1DB2D5330049928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = simpleDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.simpleDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = simpleDraw;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		270E427E1DB2D5330049928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = simpleDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.simpleDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = simpleDraw;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		270E42491DB2D5330049928F /* Build configuration list for PBXProject "simpleDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270E42741DB2D5330049928F /* Debug */,
+				270E42751DB2D5330049928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		270E42761DB2D5330049928F /* Build configuration list for PBXNativeTarget "simpleDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270E42771DB2D5330049928F /* Debug */,
+				270E42781DB2D5330049928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		270E42791DB2D5330049928F /* Build configuration list for PBXNativeTarget "simpleDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270E427A1DB2D5330049928F /* Debug */,
+				270E427B1DB2D5330049928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		270E427C1DB2D5330049928F /* Build configuration list for PBXNativeTarget "simpleDrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270E427D1DB2D5330049928F /* Debug */,
+				270E427E1DB2D5330049928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 270E42461DB2D5330049928F /* Project object */;
+}
