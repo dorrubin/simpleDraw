@@ -14,6 +14,12 @@
 		270E425C1DB2D5330049928F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270E425A1DB2D5330049928F /* LaunchScreen.storyboard */; };
 		270E42671DB2D5330049928F /* simpleDrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270E42661DB2D5330049928F /* simpleDrawTests.swift */; };
 		270E42721DB2D5330049928F /* simpleDrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270E42711DB2D5330049928F /* simpleDrawUITests.swift */; };
+		270E42801DB2D5D60049928F /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270E427F1DB2D5D60049928F /* DrawView.swift */; };
+		270E42811DB2D5D60049928F /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270E427F1DB2D5D60049928F /* DrawView.swift */; };
+		270E42821DB2D5D60049928F /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270E427F1DB2D5D60049928F /* DrawView.swift */; };
+		270E42841DB2DD120049928F /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270E42831DB2DD120049928F /* Line.swift */; };
+		270E42851DB2DD120049928F /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270E42831DB2DD120049928F /* Line.swift */; };
+		270E42861DB2DD120049928F /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270E42831DB2DD120049928F /* Line.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,8 @@
 		270E426D1DB2D5330049928F /* simpleDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		270E42711DB2D5330049928F /* simpleDrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleDrawUITests.swift; sourceTree = "<group>"; };
 		270E42731DB2D5330049928F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270E427F1DB2D5D60049928F /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		270E42831DB2DD120049928F /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,8 @@
 				270E42581DB2D5330049928F /* Assets.xcassets */,
 				270E425A1DB2D5330049928F /* LaunchScreen.storyboard */,
 				270E425D1DB2D5330049928F /* Info.plist */,
+				270E427F1DB2D5D60049928F /* DrawView.swift */,
+				270E42831DB2DD120049928F /* Line.swift */,
 			);
 			path = simpleDraw;
 			sourceTree = "<group>";
@@ -257,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				270E42541DB2D5330049928F /* ViewController.swift in Sources */,
+				270E42841DB2DD120049928F /* Line.swift in Sources */,
 				270E42521DB2D5330049928F /* AppDelegate.swift in Sources */,
+				270E42801DB2D5D60049928F /* DrawView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270E42851DB2DD120049928F /* Line.swift in Sources */,
+				270E42811DB2D5D60049928F /* DrawView.swift in Sources */,
 				270E42671DB2D5330049928F /* simpleDrawTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270E42861DB2DD120049928F /* Line.swift in Sources */,
+				270E42821DB2D5D60049928F /* DrawView.swift in Sources */,
 				270E42721DB2D5330049928F /* simpleDrawUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
