@@ -28,6 +28,14 @@ class ViewController: UIViewController {
         theDrawView.setNeedsDisplay()
     }
 
-
+    @IBAction func saveImage(sender: UIButton) {
+        print("saveImage")
+        UIGraphicsBeginImageContext(view.frame.size)
+        view.layer.renderInContext(UIGraphicsGetCurrentContext()!)
+        let sourceImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        UIImageWriteToSavedPhotosAlbum(sourceImage, nil, nil, nil)
+    }
+    
 }
 
